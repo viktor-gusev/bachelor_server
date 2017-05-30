@@ -1,0 +1,23 @@
+{
+  "name": "bachelor",
+  "version": "1.0.0",
+  "description": "XML & HTML parser",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "parse": "node parser.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "parser",
+    "node"
+  ],
+  "author": "Victor Gusev",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongoose": "^4.9.10",
+    "mongoose-auto-increment": "^5.0.1",
+    "xml2js": "^0.4.17"
+  }
+}
